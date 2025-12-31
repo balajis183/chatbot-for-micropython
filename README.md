@@ -58,9 +58,3 @@ Run the tests with:
 python -m unittest test_codebot.py
 ```
 
-## Security note ⚠️
-- The repository currently contains a hard-coded `API_KEY` in `codebot_test.py`. **Do not commit** real secrets. Use environment variables or a secrets manager before sharing the code.
-
----
-
-If you want, I can update `codebot_test.py` now to read `API_KEY` from the environment and add an `.env` example; tell me if you want that change. ✨

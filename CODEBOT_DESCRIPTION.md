@@ -60,8 +60,3 @@ API_KEY = os.getenv("CODEBOT_API_KEY")
 
 ---
 
-If you want, I can:
-- Add a short README section with instructions to store the API key in an `.env` file and load it with `python-dotenv`.
-- Add a simple test script that validates sample prompts and checks returned code for syntax.
-
-Let me know which you'd prefer and I’ll add it. ✨
